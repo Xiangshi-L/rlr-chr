@@ -1,0 +1,28 @@
+diff --git a/chr/__init__.py b/chr/__init__.py
+index 32a83d2..c44fdb6 100644
+--- a/chr/__init__.py
++++ b/chr/__init__.py
+@@ -5,4 +5,3 @@ from chr import black_boxes
+ #from chr import black_boxes_r
+ from chr import methods
+ from chr import others
+-from chr import others_r
+diff --git a/chr/black_boxes.py b/chr/black_boxes.py
+index e3e5b52..1eb4fe3 100644
+--- a/chr/black_boxes.py
++++ b/chr/black_boxes.py
+@@ -1,14 +1,12 @@
+ import torch
+ import torch.nn as nn
+ import torch.optim as optim
+-import torch.tensor as tensor
+ from torch.utils.data import DataLoader
+ 
+ import six
+ import sys
+ sys.modules['sklearn.externals.six'] = six
+ 
+-from skgarden import RandomForestQuantileRegressor
+ 
+ from sklearn.model_selection import train_test_split
+ from tqdm.autonotebook import tqdm

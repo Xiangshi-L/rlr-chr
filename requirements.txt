@@ -1,0 +1,11 @@
+# data/prepare_data.py, experiments/synthetic/, experiments/wsc_calibration_sim.py and tables/ (Python 3.9-3.12)
+crepes==0.8.0
+matplotlib==3.9.4
+numpy==1.26.4
+pandas==2.3.3
+pyparsing==3.2.3
+scikit-learn==1.6.1
+scipy==1.13.1
+six==1.17.0
+torch==2.8.0
+tqdm==4.67.3

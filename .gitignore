@@ -1,0 +1,17 @@
+# results, data and third-party clones
+results
+generated
+data/processed
+data/raw
+third_party
+
+# build caches and environments
+rlrchr/.rcpp_cache
+__pycache__
+*.pyc
+.venv*
+
+# system and R session files
+.DS_Store
+.Rhistory
+.RData
